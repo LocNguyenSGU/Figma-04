@@ -1,0 +1,106 @@
+* {
+   box-sizing: border-box;
+}
+
+:root {
+   --text-color-title: #0B0D21;
+   --text-color: #686977;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.6rem;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   background: #FDF0DF;
+}
+
+.row-courses-3,
+.row-courses-4,
+.row-courses-5 {
+   margin-top: 30px;
+}
+
+.courses .container {
+   margin-top: 13px;
+}
+
+/* ======= Popular ========= */
+.popular {
+   background-color: #fff;
+}
+
+.popular .container {
+   padding: 100px 0;
+}
+
+.popular .title {
+   color: #0B0D21;
+   text-align: center;
+   font-size: 4.2rem;
+   font-weight: 800;
+   line-height: 1.23;
+   width: 570px;
+   margin: 0 auto;
+}
+
+.popular .block-course {
+   border-radius: 12px;
+   border: 1px solid #E9EAF0;
+   background: #FFF;
+}
+
+.popular .title-2 {
+   margin-top: 100px;
+}
+
+.row-author {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 100px;
+}
+.block-author{
+   position: relative;
+}
+.block-author .img-author {
+   width: 277px;
+   height: 315px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.block-author .name-author {
+   display: flex;
+   color: var(--text-color-title);
+   font-size: 1.8rem;
+   font-weight: 700;
+   line-height: 1.56;
+   margin-top: 10px;
+   justify-content: center;
+}
+
+.block-author .sub-name {
+   display: flex;
+   color: var(--text-color);
+   font-size: 1.4rem;
+   font-weight: 400;
+   line-height: 1.7;
+   justify-content: center;
+}
+
+.block-author .btn-left {
+   position: absolute;
+   top: 30%;
+   left: -30px;
+}
+.block-author .btn-right {
+   position: absolute;
+   top: 30%;
+   right: -30px;
+}
+.block-author .btn-left:hover,
+.block-author .btn-right:hover {
+   opacity: 0.9;
+}

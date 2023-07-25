@@ -578,17 +578,17 @@ button {
 }
 
 .courses .container .btn-more {
-   display: flex;
+   width: 205px;
+   padding: 15px 35px;
+   display: flex; 
    margin: 0 auto;
    margin-top: 55px;
-   color: #0B0D21;
-   text-align: center;
+   border-radius: 8px;
+   background: #FE0;
+   color: var(--text-color-title);
    font-size: 1.8rem;
    font-weight: 700;
    line-height: 1.56;
-   border-radius: 8px;
-   background: #FE0;
-   border: none;
 }
 
 .courses .container .btn-more:hover {
@@ -822,6 +822,10 @@ button {
    margin-top: 24px;
    display: flex;
    gap: 12px;
+}
+.footer .block-icon .icon:hover {
+   opacity: 0.8;
+   scale: 1.1;
 }
 
 .footer .separate {
