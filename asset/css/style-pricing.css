@@ -1,0 +1,137 @@
+* {
+   box-sizing: border-box;
+}
+
+:root {
+   --text-color-title: #0B0D21;
+   --text-color: #686977;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+body {
+   font-size: 1.6rem;
+   font-family: 'Plus Jakarta Sans', sans-serif;
+   background: #fff;
+}
+
+.header {
+   background: #fff;
+}
+
+.pricing .container {
+   padding-bottom: 100px;
+}
+
+.pricing .title {
+   margin-top: 12px;
+   color: var(--text-color-title);
+   text-align: center;
+   font-size: 4.2rem;
+   font-weight: 800;
+   line-height: 1.23;
+}
+
+.row-block-price {
+   margin-top: 70px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.pricing .block-price {
+   width: 370px;
+   border-radius: 20px;
+   border: 1px solid #E9EAF0;
+   background: #FFF;
+   padding: 30px 40px;
+}
+
+.pricing .block-price:hover .desc,
+.pricing .block-price:hover .grade,
+.pricing .block-price:hover .price,
+.pricing .block-price:hover li {
+   color: #FFF;
+   transition: 0.8s;
+}
+
+.pricing .block-price:hover {
+   background-color: #111727;
+   transition: 0.8s;
+   margin-top: -20px;
+}
+
+.pricing .block-price:hover .btn {
+   background-color: #FE0;
+   transition: 0.8s;
+}
+
+.pricing .block-price .grade {
+   display: block;
+   color: #000;
+   font-size: 2rem;
+   font-weight: 500;
+   line-height: 1.7;
+}
+
+.block-price .price {
+   display: block;
+   color: #000;
+   font-size: 1.6rem;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 1.62;
+   margin-top: 7px;
+}
+
+.block-price .price em {
+   font-size: 5.6rem;
+   font-weight: 700;
+   line-height: 1.72;
+}
+
+.block-price .desc {
+   color: #000;
+   font-size: 1.5rem;
+   font-weight: 400;
+   line-height: 1.2;
+   margin-top: 7px;
+   width: 307px;
+}
+
+.block-price ul {
+   margin-top: 27px;
+}
+
+.block-price ul li {
+   display: flex;
+   align-items: center;
+   gap: 5px;
+   color: #000;
+   font-size: 1.5rem;
+   font-weight: 400;
+   line-height: 1.2;
+   margin-bottom: 19px;
+}
+
+.block-price .btn {
+   display: inline-block;
+   margin-top: 13px;
+   padding: 15px 20px;
+   color: #FFF;
+   font-size: 1.6rem;
+   font-style: normal;
+   font-weight: 500;
+   line-height: 1.25;
+   border-radius: 10px;
+   background: #000;
+}
+
+.block-price .btn-1 {
+   margin-top: 195px;
+}
+
+.footer {
+   background-color: #FDF0DF;
+}
