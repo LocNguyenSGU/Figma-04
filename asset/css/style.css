@@ -551,10 +551,11 @@ button {
    font-size: 1.6rem;
    line-height: 1.62;
    position: relative;
+   display: flex;
 }
 
 .block-course .row .desc .icon {
-   margin-right: 8px;
+   margin-right: 4px;
 }
 
 .block-course .price {
