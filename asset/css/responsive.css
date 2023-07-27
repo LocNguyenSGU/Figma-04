@@ -1,0 +1,588 @@
+/* PC */
+@media screen and (min-width: 992px) {
+   .hide-on-pc {
+      display: none;
+   }
+}
+
+/* Tablet & mobile */
+@media screen and (max-width: 991.98px) {
+
+   /* Header */
+   .header .container {
+      position: relative;
+   }
+
+   .header .nav {
+      display: none;
+   }
+
+   .header .logo {
+      margin-top: 9px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+   }
+
+   .header .sigin {
+      margin-left: 570px;
+   }
+
+   .toggle-menu svg {
+      font-size: 24px;
+      color: #666;
+   }
+
+   .mobile-header .menu-overlay {
+      position: fixed;
+      inset: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 1;
+      opacity: 0;
+      visibility: hidden;
+      transition: 0.5s ease;
+   }
+
+   .mobile-header .menu-drawer {
+      position: fixed;
+      inset: 0 40% 0 0;
+      background-color: #fff;
+      z-index: 2;
+      transform: translateX(-100%);
+      transition: 0.5s ease;
+   }
+
+   .menu-checkbox:checked~.menu-overlay {
+      opacity: 1;
+      opacity: 1;
+      visibility: visible;
+   }
+
+   .menu-checkbox:checked~.menu-drawer {
+      transform: translateX(0);
+   }
+
+   .menu-drawer {
+      padding: 60px;
+   }
+
+   .menu-drawer nav {
+      margin-top: 32px;
+   }
+
+   .menu-drawer .nav ul li a {
+      color: #0B0D21;
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 1.56;
+      border-radius: 4px;
+   }
+
+   .menu-drawer li {
+      padding: 4px 8px;
+   }
+
+   /* =========== Hero ===========*/
+   .hero .img-4 {
+      width: 170px;
+      height: 170px;
+      top: -94px;
+      right: -30px;
+   }
+
+   .hero .icon-2 {
+      position: absolute;
+      right: 33px;
+      bottom: 236px;
+   }
+
+   /* =========== Follow ===========*/
+   .follow {
+      padding: 40px;
+      margin-top: 50px;
+   }
+
+   .follow .saparete {
+      display: none;
+   }
+
+   .follow .container {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-between;
+      row-gap: 40px;
+   }
+
+   .follow .block {
+      display: block;
+      text-align: center;
+   }
+
+   .follow .block .number,
+   .follow .block .desc {
+      text-align: center;
+   }
+
+   /* ========= Proving ========== */
+   .providing {
+      padding-top: 35px;
+   }
+
+   .providing .row-block {
+      flex-direction: column-reverse;
+   }
+
+   .providing .row-block video,
+   .providing .row-block .record {
+      display: block;
+      margin: 0 auto;
+   }
+
+   .providing .row-block-2 {
+      display: block;
+      margin-top: 70px;
+   }
+
+   .providing .row-block-2 .row {
+      display: block;
+   }
+
+   .providing .row-block-2 video,
+   .providing .row-block-2 .record {
+      display: block;
+      margin: 0 auto;
+      margin-top: 30px;
+   }
+
+   .explore div {
+      margin: 0 auto;
+   }
+
+   .row-sector {
+      gap: 0;
+   }
+
+   .providing .row-block-2 video {
+      width: 570px;
+      height: 520px;
+   }
+
+   .providing {
+      padding-bottom: 70px;
+   }
+}
+
+/* ====================== Tablet ================== */
+@media screen and (min-width: 768px) and (max-width: 991.97px) {
+   .hide-on-tablet {
+      display: none;
+   }
+
+   /* ======== Courses =========== */
+   .row-courses {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      justify-content: space-between;
+   }
+
+   .row-courses-2 {
+      margin-top: -525px;
+   }
+
+   .row-courses-2 .block-course:nth-child(3),
+   .row-courses-2 .block-course:nth-child(4) {
+      margin-top: 30px;
+   }
+
+   /* ============= About =========== */
+   .about .container {
+      padding: 55px 0;
+   }
+
+   .about .row-2 {
+      margin-top: 50px;
+      flex-wrap: wrap;
+   }
+
+   .about .row:first-child {
+      display: block;
+   }
+
+   .about .desc,
+   .about .title {
+      margin: 0;
+   }
+
+   .about .row {
+      display: flex;
+      gap: 0;
+      justify-content: space-between;
+   }
+
+   /* ======== Subscribe =========== */
+   .subscribe .container {
+      padding: 80px 0;
+   }
+
+   /* ======== Footer =========== */
+   .footer .container:first-child {
+      padding-top: 50px;
+      display: grid;
+      grid-template-rows: 3fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+   }
+}
+
+/* ===================== Mobile ========================*/
+@media screen and (max-width: 767.98px) {
+   .hide-on-mobile {
+      display: none;
+   }
+
+   .menu-drawer {
+      padding: 30px;
+   }
+
+   .mobile-header .menu-drawer {
+      inset: 0 25% 0 0;
+   }
+
+   .header .login,
+   .header .sigin {
+      display: none;
+   }
+
+   .menu-drawer .sigin,
+   .menu-drawer .btn {
+      font-size: 1.8rem;
+      font-weight: 400;
+      line-height: 1.56;
+      border-radius: 4px;
+      display: block;
+   }
+
+   .menu-drawer .separate {
+      border-bottom: 1px solid #ebebeb;
+   }
+
+   /* ========= Hero ========= */
+   .hero .container {
+      margin-top: 37px;
+      display: flex;
+      justify-content: space-between;
+      position: relative;
+      gap: 45px;
+      flex-direction: column;
+   }
+
+   .hero .title {
+      width: 338px;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 42px;
+      /* 131.25% */
+   }
+
+   .hero .desc {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+      /* 171.429% */
+      width: 312px;
+   }
+
+   .hero .block-btn {
+      flex-direction: column;
+      margin-top: 28px;
+   }
+
+   .hero .block-btn .btn {
+      width: 185px;
+   }
+
+   .hero .icon-1 {
+      display: none;
+   }
+
+   .hero .block-star {
+      margin-top: 38px;
+   }
+
+   .hero .client {
+      width: 200px;
+   }
+
+   .hero .block-img-2 .hero-img {
+      display: block;
+      width: 312px;
+      height: 399px;
+      object-fit: contain;
+      margin: 0 auto;
+   }
+
+   /* ======= Follow ======== */
+   .follow {
+      padding: 55px 0;
+      margin-top: 30px;
+   }
+
+   .follow .container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+   }
+
+   .follow .block {
+      width: 175px;
+   }
+
+   /* ========= Proving ======== */
+   .providing {
+      padding-bottom: 70px;
+   }
+
+   .providing .title {
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: 36px;
+      text-align: center;
+   }
+
+   .providing .desc,
+   .providing .title {
+      width: auto;
+      text-align: center;
+      margin-top: 5px;
+      margin-right: 0;
+   }
+
+   .providing .title {
+      margin-top: 28px;
+   }
+
+   .providing .row,
+   .providing .line {
+      display: none;
+   }
+
+   .providing video {
+      width: 300px;
+      height: 300px;
+   }
+
+   .providing .row-block-2 video {
+      width: 300px;
+      height: 300px;
+   }
+
+   .explore .title,
+   .explore .desc {
+      text-align: left;
+   }
+
+   .record .title {
+      text-align: left;
+   }
+
+   .record .desc {
+      margin-right: 0;
+      text-align: left;
+   }
+
+   .row-sector {
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+   }
+
+   .row-sector .sector {
+      margin: 0 auto;
+      margin-top: 20px;
+   }
+
+   .row-sector:last-child {
+      margin-top: 20px;
+   }
+
+   /* ======== Courses =========== */
+   .courses .container {
+      padding-bottom: 55px;
+   }
+
+   .courses .title,
+   .courses .desc {
+      width: auto;
+   }
+
+   .courses .desc {
+      margin-bottom: 28px;
+   }
+
+   .courses .row-courses {
+      width: auto;
+      display: block;
+      margin: 0 auto;
+   }
+
+   .courses .block-course {
+      width: auto;
+      margin-bottom: 12px;
+   }
+
+   .courses .block-course .img {
+      width: 100%;
+      height: 262px;
+      object-fit: cover;
+   }
+
+   .block-course .row .desc {
+      font-size: 1.4rem;
+   }
+
+   .block-course .row .desc .icon {
+      margin-right: 3px;
+   }
+
+   .block-course .row-2 {
+      gap: 9px;
+   }
+
+   .block-course .row-3 {
+      margin-top: 5px;
+   }
+
+   .courses .container .btn-more {
+      margin-top: 28px;
+   }
+
+   /* ========= About ========== */
+   .about .title {
+      font-size: 2.6rem;
+      line-height: 1.3;
+   }
+
+   .about .row {
+      display: block;
+   }
+
+   .about .row-2 {
+      margin-top: 50px;
+   }
+
+   .about .title,
+   .about .desc {
+      width: auto;
+   }
+
+   .about .container {
+      padding: 50px 0;
+   }
+
+   .about .comment {
+      margin-bottom: 15px;
+   }
+
+   .about .comment .desc {
+      width: auto;
+   }
+
+   .about .separate {
+      margin-left: 0;
+      margin-top: 20px;
+      width: 100%;
+      height: 2px;
+      border-radius: 1px;
+      background: #E9EAF0;
+   }
+
+   .about .row-last {
+      margin-left: 0;
+   }
+
+   .about .block-tab {
+      margin-top: 35px;
+   }
+
+   /* =========== Subscribe ============= */
+   .subscribe .container {
+      padding: 50px 0;
+   }
+
+   .subscribe .title {
+      font-size: 2.6rem;
+      line-height: 1.3;
+      width: auto;
+   }
+
+   .subscribe .desc {
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.7;
+      width: auto;
+   }
+
+   .subscribe form {
+      flex-direction: column;
+   }
+
+   .subscribe form input {
+      width: 305px;
+   }
+
+   /* =========== Footer ============ */
+   .footer .container:first-child {
+      /* padding-top: 50px;
+      display: grid;
+      grid-template-rows: 3fr 2fr 1fr;
+      grid-template-columns: 1fr 1fr; */
+      display: block;
+      padding-top: 50px;
+   }
+
+   .footer li a {
+      margin-top: 0;
+   }
+
+   .footer .title {
+      margin-top: 15px;
+      padding-bottom: 5px;
+
+   }
+
+   .footer .block-icon {
+      margin-top: 10px;
+   }
+
+   .footer .title-email,
+   .footer .title-phone {
+      margin-top: 20px;
+      padding-bottom: 3px;
+   }
+
+   .footer .separate {
+      margin-top: 20px;
+   }
+
+   .footer .row {
+      display: block;
+      margin-top: 28px;
+      margin-bottom: 28px;
+      justify-content: space-between;
+   }
+
+   .footer .icon-4 {
+      margin-top: 15px;
+   }
+
+   .footer .coppy-right {
+      margin-top: 15px;
+      width: 330px;
+   }
+
+}
