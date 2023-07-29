@@ -93,12 +93,26 @@
         <link rel="stylesheet" href="./asset/css/style.css" />
         <link rel="stylesheet" href="./asset/css/style-courses.css" />
         <link rel="stylesheet" href="./asset/css/responsive.css" />
+        <link rel="stylesheet" href="./asset/css/page-course-responsive.css">
     </head>
 
     <body>
         <!-- Header -->
         <header class="header">
             <div class="container">
+                <!-- Tablet/ mobile menu -->
+                <label for="menu-checkbox" class="toggle-menu hide-on-pc">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        height="1em"
+                        viewBox="0 0 448 512"
+                    >
+                        <path
+                            fill="currentColor"
+                            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                        />
+                    </svg>
+                </label>
                 <a href="#">
                     <img
                         src="./asset/img/Logo.svg"
@@ -127,6 +141,58 @@
                 </nav>
                 <a href="#!" class="sigin">Sign In</a>
                 <button class="login">Log In</button>
+            </div>
+        </header>
+        <!-- Tablet/mobile-header -->
+        <header class="mobile-header hide-on-pc">
+            <input
+                type="checkbox"
+                name=""
+                id="menu-checkbox"
+                class="menu-checkbox"
+                hidden
+            />
+            <!-- Overlay -->
+            <label for="menu-checkbox" class="menu-overlay"></label>
+            <!-- menu-content -->
+            <div class="menu-drawer">
+                <a href="#">
+                    <img
+                        src="./asset/img/Logo.svg"
+                        alt="tutelage"
+                        class="logo"
+                    />
+                    <nav class="nav">
+                        <ul>
+                            <li>
+                                <a href="./index.html" class="active">Home</a>
+                            </li>
+                            <li>
+                                <a href="./courses.html">Courses</a>
+                            </li>
+                            <li>
+                                <a href="./mentors.html">Mentors</a>
+                            </li>
+                            <li>
+                                <a href="./about.html">About</a>
+                            </li>
+                            <li>
+                                <a href="./blog.html">Blog</a>
+                            </li>
+                            <li><div class="separate"></div></li>
+                            <li>
+                                <a href="#!" class="sigin hide-on-tablet"
+                                    >Sign In</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#!" class="btn hide-on-tablet"
+                                    >Sign Up</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </a>
             </div>
         </header>
         <!-- Main -->
@@ -438,6 +504,55 @@
                                 <a class="btn" href="./pricing.html">Enroll</a>
                             </div>
                         </div>
+                        <!-- course-3 (là course 3 của row-courses-1.) -->
+                        <div class="block-course hide-on-mobile hide-on-pc">
+                            <img
+                                src="./asset/img/courses-3.png"
+                                alt="UI/UX DESIGN"
+                                class="img"
+                            />
+                            <span class="label">UI/UX DESIGN</span>
+                            <span class="title-course"
+                                >Become a UX designer in 2022</span
+                            >
+                            <div class="row-1 row">
+                                <img
+                                    src="./asset/img/course-author.png"
+                                    alt=""
+                                    class="img-author"
+                                />
+                                <span class="author">by Eichiro D. Lucky</span>
+                            </div>
+                            <div class="row-2 row">
+                                <span class="time desc">
+                                    <img
+                                        src="./asset/img/courses-icon-1.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    8hr 39min
+                                </span>
+                                <span class="class desc"
+                                    ><img
+                                        src="./asset/img/courses-icon-2.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    18 classes</span
+                                >
+                                <span class="sale desc">
+                                    <img
+                                        src="./asset/img/courses-icon-3.svg"
+                                        alt=""
+                                        class="icon"
+                                    />572 sales</span
+                                >
+                            </div>
+                            <div class="row-3 row">
+                                <span class="price">$134</span>
+                                <a class="btn" href="./pricing.html">Enroll</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="row-courses row-courses-3">
                         <!-- course-1 -->
@@ -540,6 +655,55 @@
                         </div>
                         <!-- course-3 -->
                         <div class="block-course">
+                            <img
+                                src="./asset/img/courses-3.png"
+                                alt="UI/UX DESIGN"
+                                class="img"
+                            />
+                            <span class="label">UI/UX DESIGN</span>
+                            <span class="title-course"
+                                >Become a UX designer in 2022</span
+                            >
+                            <div class="row-1 row">
+                                <img
+                                    src="./asset/img/course-author.png"
+                                    alt=""
+                                    class="img-author"
+                                />
+                                <span class="author">by Eichiro D. Lucky</span>
+                            </div>
+                            <div class="row-2 row">
+                                <span class="time desc">
+                                    <img
+                                        src="./asset/img/courses-icon-1.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    8hr 39min
+                                </span>
+                                <span class="class desc"
+                                    ><img
+                                        src="./asset/img/courses-icon-2.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    18 classes</span
+                                >
+                                <span class="sale desc">
+                                    <img
+                                        src="./asset/img/courses-icon-3.svg"
+                                        alt=""
+                                        class="icon"
+                                    />572 sales</span
+                                >
+                            </div>
+                            <div class="row-3 row">
+                                <span class="price">$134</span>
+                                <a class="btn" href="./pricing.html">Enroll</a>
+                            </div>
+                        </div>
+                        <!-- course-3 (là course 3 của row-courses-1.) -->
+                        <div class="block-course hide-on-mobile hide-on-pc">
                             <img
                                 src="./asset/img/courses-3.png"
                                 alt="UI/UX DESIGN"
@@ -736,6 +900,55 @@
                                 <a class="btn" href="./pricing.html">Enroll</a>
                             </div>
                         </div>
+                        <!-- course-3 (là course 3 của row-courses-1.) -->
+                        <div class="block-course hide-on-mobile hide-on-pc">
+                            <img
+                                src="./asset/img/courses-3.png"
+                                alt="UI/UX DESIGN"
+                                class="img"
+                            />
+                            <span class="label">UI/UX DESIGN</span>
+                            <span class="title-course"
+                                >Become a UX designer in 2022</span
+                            >
+                            <div class="row-1 row">
+                                <img
+                                    src="./asset/img/course-author.png"
+                                    alt=""
+                                    class="img-author"
+                                />
+                                <span class="author">by Eichiro D. Lucky</span>
+                            </div>
+                            <div class="row-2 row">
+                                <span class="time desc">
+                                    <img
+                                        src="./asset/img/courses-icon-1.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    8hr 39min
+                                </span>
+                                <span class="class desc"
+                                    ><img
+                                        src="./asset/img/courses-icon-2.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    18 classes</span
+                                >
+                                <span class="sale desc">
+                                    <img
+                                        src="./asset/img/courses-icon-3.svg"
+                                        alt=""
+                                        class="icon"
+                                    />572 sales</span
+                                >
+                            </div>
+                            <div class="row-3 row">
+                                <span class="price">$134</span>
+                                <a class="btn" href="./pricing.html">Enroll</a>
+                            </div>
+                        </div>
                     </div>
                     <div class="row-courses row-courses-5">
                         <!-- course-1 -->
@@ -885,6 +1098,55 @@
                                 <a class="btn" href="./pricing.html">Enroll</a>
                             </div>
                         </div>
+                        <!-- course-3 (là course 3 của row-courses-1.) -->
+                        <div class="block-course hide-on-mobile hide-on-pc">
+                            <img
+                                src="./asset/img/courses-3.png"
+                                alt="UI/UX DESIGN"
+                                class="img"
+                            />
+                            <span class="label">UI/UX DESIGN</span>
+                            <span class="title-course"
+                                >Become a UX designer in 2022</span
+                            >
+                            <div class="row-1 row">
+                                <img
+                                    src="./asset/img/course-author.png"
+                                    alt=""
+                                    class="img-author"
+                                />
+                                <span class="author">by Eichiro D. Lucky</span>
+                            </div>
+                            <div class="row-2 row">
+                                <span class="time desc">
+                                    <img
+                                        src="./asset/img/courses-icon-1.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    8hr 39min
+                                </span>
+                                <span class="class desc"
+                                    ><img
+                                        src="./asset/img/courses-icon-2.svg"
+                                        alt=""
+                                        class="icon"
+                                    />
+                                    18 classes</span
+                                >
+                                <span class="sale desc">
+                                    <img
+                                        src="./asset/img/courses-icon-3.svg"
+                                        alt=""
+                                        class="icon"
+                                    />572 sales</span
+                                >
+                            </div>
+                            <div class="row-3 row">
+                                <span class="price">$134</span>
+                                <a class="btn" href="./pricing.html">Enroll</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -967,30 +1229,66 @@
                                 >Become a UX designer in 2022</span
                             >
                         </div>
+                        <!-- course-4 là course 3 của row-course-1) -->
+                        <div class="block-course hide-on-pc hide-on-mobile">
+                            <img
+                                src="./asset/img/courses-3.png"
+                                alt="UI/UX DESIGN"
+                                class="img"
+                            />
+                            <span class="label">UI/UX DESIGN</span>
+                            <span class="title-course"
+                                >Become a UX designer in 2022</span
+                            >
+                        </div>
                     </div>
                     <h2 class="title title-2">Popular Instructors</h2>
                     <div class="row-author">
                         <div class="block-author">
-                           <img src="./asset/img/course-popular-author-1.png" alt="" class="img-author">
-                           <span class="name-author">Chris Haroun</span>
-                           <span class="sub-name">Business Fundamentals</span>
-                           <img src="./asset/img/courses-popular-btn-left.svg" alt="" class="btn-left">
+                            <img
+                                src="./asset/img/course-popular-author-1.png"
+                                alt=""
+                                class="img-author"
+                            />
+                            <span class="name-author">Chris Haroun</span>
+                            <span class="sub-name">Business Fundamentals</span>
+                            <img
+                                src="./asset/img/courses-popular-btn-left.svg"
+                                alt=""
+                                class="btn-left"
+                            />
                         </div>
                         <div class="block-author">
-                           <img src="./asset/img/course-popular-author-2.png" alt="" class="img-author">
-                           <span class="name-author">Hussain Ahmed</span>
-                           <span class="sub-name">Business Strategy</span>
+                            <img
+                                src="./asset/img/course-popular-author-2.png"
+                                alt=""
+                                class="img-author"
+                            />
+                            <span class="name-author">Hussain Ahmed</span>
+                            <span class="sub-name">Business Strategy</span>
                         </div>
                         <div class="block-author">
-                           <img src="./asset/img/course-popular-author-3.png" alt="" class="img-author">
-                           <span class="name-author">Robert Steele</span>
-                           <span class="sub-name">Freelancing</span>
+                            <img
+                                src="./asset/img/course-popular-author-3.png"
+                                alt=""
+                                class="img-author"
+                            />
+                            <span class="name-author">Robert Steele</span>
+                            <span class="sub-name">Freelancing</span>
                         </div>
                         <div class="block-author">
-                           <img src="./asset/img/course-popular-author-4.png" alt="" class="img-author">
-                           <span class="name-author">Sethiya Godin</span>
-                           <span class="sub-name">UI/UX Design</span>
-                           <img src="./asset/img/courses-popular-btn-right.svg" alt="" class="btn-right">
+                            <img
+                                src="./asset/img/course-popular-author-4.png"
+                                alt=""
+                                class="img-author"
+                            />
+                            <span class="name-author">Sethiya Godin</span>
+                            <span class="sub-name">UI/UX Design</span>
+                            <img
+                                src="./asset/img/courses-popular-btn-right.svg"
+                                alt=""
+                                class="btn-right"
+                            />
                         </div>
                     </div>
                 </div>

@@ -1,0 +1,38 @@
+/* ====================== Tablet ================== */
+@media screen and (min-width: 768px) and (max-width: 991.97px) {
+   .row-mentors {
+      flex-wrap: wrap;
+   }
+
+   .row-mentors .block-mentor:nth-child(3) {
+      display: none;
+   }
+   
+}
+
+/* ===================== Mobile ========================*/
+@media screen and (max-width: 767.98px) {
+   .mentors .title {
+      font-size: 2.4rem;
+      margin-top: 30px;
+   }
+   .mentors .img-mentor {
+      width: 312px;
+   }
+
+   .block-mentor .icon-2 {
+      bottom: 140px;
+   }
+   .block-mentor .students {
+      margin-left: 25px;
+   }
+
+   .row-mentors {
+      flex-direction: column;
+      row-gap: 20px;
+   }
+
+   .row-mentors-3 {
+      display: none;
+   }
+}
