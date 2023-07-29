@@ -1,0 +1,185 @@
+/* ====================== Tablet ================== */
+@media screen and (min-width: 768px) and (max-width: 991.97px) {
+   .hide-on-tablet {
+      display: none;
+   }
+
+   .sub-vison .container {
+      display: block;
+   }
+
+   .vison .title {
+      font-size: 3rem;
+   }
+
+   .sub-vison .desc {
+      font-size: 1.6rem;
+      margin-bottom: 20px;
+      width: auto;
+   }
+
+   .sub-vison {
+      margin: 50px 0;
+   }
+
+   .serving .container {
+      padding: 50px 0;
+   }
+
+   .serving .title {
+      font-size: 3rem;
+   }
+
+   .serving .btn {
+      font-size: 1.6rem;
+   }
+
+   .serving .row-1 {
+      margin-top: 40px;
+   }
+
+   .desc {
+      font-size: 1.5rem;
+   }
+
+   .serving .row-2 .img {
+      display: none;
+   }
+}
+
+/* Tablet & mobile */
+@media screen and (max-width: 991.98px) {
+   .desc {
+      font-size: 1.4rem;
+   }
+
+   .hide-on-tablet {
+      display: none;
+   }
+
+   .sub-vison .container {
+      display: block;
+   }
+
+   .sub-vison .desc {
+      margin-bottom: 20px;
+   }
+}
+
+/* ===================== Mobile ========================*/
+@media screen and (max-width: 767.98px) {
+   .menu-drawer .btn {
+      padding: 0;
+   }
+   .desc {
+      font-size: 1.4rem;
+   }
+
+   .vison .container {
+      padding: 30px 0;
+   }
+
+   .vison .title {
+      font-size: 2.4rem;
+   }
+
+   .vison .btn {
+      margin-top: 15px;
+   }
+
+   .sub-vison {
+      margin: 30px 0;
+   }
+
+   .sub-vison .desc {
+      width: auto;
+   }
+
+   .sub-vison .img {
+      width: 305px;
+      height: 290px;
+   }
+
+   .serving .container {
+      padding: 50px 0;
+   }
+
+   .serving .title {
+      font-size: 2.4rem;
+   }
+
+   .serving .btn {
+      font-size: 1.2rem;
+      width: 200px;
+      padding: 12px 14px;
+      margin-top: 15px;
+   }
+
+   .serving .content {
+      width: auto;
+   }
+
+   .serving .title {
+      font-size: 1.4rem;
+   }
+
+   .serving .desc {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+   }
+
+   .serving .row-1 {
+      margin-top: 50px;
+   }
+
+   .serving .row {
+      display: block;
+   }
+
+   .serving .row-title {
+      font-size: 1.4rem;
+      width: auto;
+   }
+
+   .serving .row .desc {
+      width: auto;
+   }
+
+   .serving .img {
+      width: 300px;
+      height: 280px;
+      object-fit: cover;
+   }
+
+   .serving .row-2 {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-top: 30px;
+   }
+
+   .serving .row-2 .block-content {
+      width: auto
+   }
+
+   .serving .row-2 .img {
+      width: 305px;
+      height: 290px;
+   }
+
+   .serving .row-title {
+      font-size: 2.4rem;
+   }
+
+   .serving .row-2 .desc {
+      font-size: 1.2rem;
+   }
+
+   .sub-serving .container {
+      padding: 30px 0;
+   }
+
+   .sub-serving .title,
+   .sub-serving .desc {
+      font-size: 1.6rem;
+   }
+}
